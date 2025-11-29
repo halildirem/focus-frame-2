@@ -1,1 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Modern Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+
+    <title>Focus Frame</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="hero-line-back">
+        <!-- Header Zehra Yazıcı-->
+        <!-- Header Start -->
+        <header id="header">
+          <!-- Header Container -->
+          <div class="header-container">
+            <!-- Header Left -->
+            <div>
+              <a href="#">
+                <svg class="header-logo" width="123" height="16">
+                  <use href="./src/images/header-img/header.svg#logo"></use>
+                </svg>
+              </a>
+            </div>
+            <!-- Header Left End -->
+
+            <!-- Header Right -->
+            <!-- Toggle Checkbox -->
+            <div class="menu-container">
+              <input
+                type="checkbox"
+                id="menu-toggle"
+                class="menu-toggle-checkbox"
+                aria-label="Toggle menu"
+              />
+
+              <div class="menu-overlay"></div>
+              <!-- Toggle Checkbox End -->
+
+              <!-- Header icons -->
+              <div class="menulerler">
+                <a href="#sign-up">
+                  <label class="camera-label">
+                    <svg class="camera-icon" width="16" height="16">
+                      <use
+                        href="./src/images/header-img/header.svg#camera"
+                      ></use>
+                    </svg>
+                  </label>
+                </a>
+
+                <label for="menu-toggle" class="menu-label">
+                  <svg class="menu-icon" width="32" height="22">
+                    <use
+                      href="./src/images/header-img/header.svg#burger-nav"
+                    ></use>
+                  </svg>
+                </label>
+              </div>
+
+              <label for="menu-toggle" class="close-menu-label">
+                <svg class="close-menu-icon" width="32" height="32">
+                  <use href="./src/images/header-img/header.svg#close"></use>
+                </svg>
+              </label>
+              <!-- Header icons end -->
+
+              <!-- nav links -->
+              <nav class="nav-links">
+                <ul>
+                  <li><a href="#about-us">ABOUT US</a></li>
+                  <li><a href="#courses">OUR COURSES</a></li>
+                  <li><a href="#mentors">OUR MENTORS</a></li>
+                  <li><a href="#reviews">REVIEWS</a></li>
+                  <li><a href="#contacts">CONTACTS</a></li>
+                </ul>
+              </nav>
+              <!-- nav links end -->
+
+              <!-- picture -->
+              <picture>
+                <source
+                  srcset="./src/images/header-img/menu-tab.jpg"
+                  media="(min-width: 768px)"
+                />
+
+                <img
+                  src="./src/images/header-img/menu-mob.jpg"
+                  alt="camera"
+                  class="header-mobile-image"
+                />
+              </picture>
+            </div>
+          </div>
+
+          <!-- Header Right End -->
+          <a
+            class="header-button"
+            href="#sign-up"
+            title="Sign up for our courses"
+          >
+            Sign Up
+          </a>
+          <!-- Header Container End -->
+        </header>
+        <!-- HERO SECTİON - YUSUF SOYLU - START -->
+        <div class="hero-container">
+          <section class="hero">
+            <div class="hero-head">
+              <h1 class="hero-h1">
+                Discover the magic of
+                <span class="hero-span">photography</span> in our school
+              </h1>
+            </div>
+            <div class="hero-first-p-div">
+              <p class="hero-p">
+                Our photography school offers an unforgettable journey, where
+                you can learn the basics of composition, master technical
+                skills, translate your unique ideas.
+              </p>
+              <p class="hero-p-tablet">
+                Our photography school offers an unforgettable journey, where
+                you
+                <br />
+                can learn the basics of composition, master technical skills,
+                <br />
+                translate your unique ideas.
+              </p>
+            </div>
+            <section class="hero-sec-img">
+              <div class="hero-img">
+                <img
+                  class="hero-img-01"
+                  src="./src/images/img/1.png"
+                  alt="Caitlyn King"
+                />
+                <img
+                  class="hero-img-01"
+                  src="./src/images/img/2.png"
+                  alt="Jordan Burgess"
+                />
+                <img
+                  class="hero-img-01"
+                  src="./src/images/img/3.png"
+                  alt="Adriana O'Sullivan"
+                />
+              </div>
+              <div class="hero-icon-div">
+                <a href="" class="hero-icon-circle">
+                  <svg class="hero-icon-star">
+                    <use href="./src/images/img/icons.svg#icon-Vector"></use>
+                  </svg>
+                </a>
+                <p class="hero-reviews-p">Reviews</p>
+                <p class="hero-number">+1500</p>
+              </div>
+            </section>
+            <div class="hero-links">
+              <a class="hero-link" href="reviews"
+                >Our happy <br />
+                students</a
+              >
+              <a class="hero-icon-href" href="">
+                <svg>
+                  <use
+                    href="./src/images/img/icons.svg#icon-Arrow-2-Stroke"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="hero-last-img">
+              <img
+                class="hero-img-back"
+                src="./src/images/img/adam.png"
+                alt=""
+              />
+              <img
+                class="hero-img-tablet"
+                src="./src/images/img/Rectangle 5.png"
+                alt=""
+              />
+              <img class="hero-img-pc" src="./src/images/img/pc.png" alt="" />
+            </div>
+          </section>
+        </div>
+        <!-- HERO SECTİON - YUSUF SOYLU - END -->
+      </div>
+
+      <!-- Advertisement Section -->
+
+      <section class="slogan">
+        <div class="slogan-container">
+          <h2 class="slogan-title">
+            MASTER <span class="accent">YOUR PHOTOGRAPHY</span> SKILLS WITH US!
+          </h2>
+          <h2 class="slogan-title">
+            MASTER <span class="accent">YOUR PHOTOGRAPHY</span> SKILLS WITH US!
+          </h2>
+        </div>
+      </section>
+      <!-- Advertisement Section End -->
+
+      <!-- About Us Section | Kerem Yıldırım -->
+      <section id="about-us">
+        <div class="about-us-container">
+          <h2 class="about-us-title">About <span>Us</span></h2>
+          <div class="about-us-image-div">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./src/images/images/about-us/about-us-camera-1440.png    1x,
+                  ./src/images/images/about-us/about-us-camera-1440@2x.png 2x
+                "
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./src/images/images/about-us/about-us-camera-1280.png    1x,
+                  ./src/images/images/about-us/about-us-camera-1280@2x.png 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./src/images/images/about-us/about-us-camera-768.png    1x,
+                  ./src/images/images/about-us/about-us-camera-768@2x.png 2x
+                "
+              />
+              <img
+                src="./src/images/images/about-us/about-us-camera-375.png"
+                srcset="
+                  ./src/images/images/about-us/about-us-camera-375.png    1x,
+                  ./src/images/images/about-us/about-us-camera-375@2x.png 2x
+                "
+                alt="Photo Camera"
+              />
+            </picture>
+
+            <ul class="about-us-content">
+              <li>
+                <p class="about-us-text">
+                  Our photography school is designed to teach you everything you
+                  need to know about this magical art. Regardless of your
+                  experience or skill level, we offer a wide range of courses to
+                  suit your needs and interests. Our teaching team consists of
+                  experienced photographers who have many years of experience in
+                  this field. They strive not only to share their knowledge, but
+                  also to inspire you to develop and express your unique
+                  creativity.
+                </p>
+              </li>
+              <li>
+                <p class="about-us-text">
+                  Our courses cover a wide range of topics, from the basics of
+                  photography and equipment use to professional image processing
+                  and creating impressive compositions. You will have the
+                  opportunity to learn the technical aspects of photography,
+                  discover your own style and develop your own visual language.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- About Us Section End -->
+      <!-- OUR COURSES Section Start -->
+      <section class="our-courses-container" id="courses">
+        <div>
+          <div class="our-courses-info">
+            <h2 class="our-courses-title">
+              Our <span class="our-courses-title-span">Courses</span>
+            </h2>
+            <p class="our-courses-info-text">
+              At our photography school, we offer a variety of courses that
+              cover all aspects of this fascinating art. Regardless of your
+              experience or skill level, we have courses to suit your needs and
+              goals.
+            </p>
+          </div>
+          <div class="our-courses-list">
+            <ol class="our-courses-ul">
+              <li class="our-courses-card">
+                <div class="our-courses-card-inner">
+                  <div class="our-courses-card-inner-top">
+                    <span class="our-courses-card-number">01</span>
+                    <a href="#sign-up" class="our-courses-card-arrow-link">
+                      <svg
+                        class="our-courses-icon-arrow"
+                        width="20"
+                        height="20"
+                      >
+                        <use
+                          href="./src/images/images/our-courses-images/symbol-defs.svg#icon-arrow"
+                        ></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <h3 class="our-courses-card-header">
+                    Basics of <br />
+                    photography
+                  </h3>
+                  <p class="our-courses-in-card-info">
+                    During this course, you will be able to familiarize yourself
+                    with different types of cameras, learn the basics of
+                    composition.
+                  </p>
+                </div>
+              </li>
+              <li class="our-courses-card">
+                <div class="our-courses-card-inner">
+                  <div class="our-courses-card-inner-top">
+                    <span class="our-courses-card-number">02</span>
+                    <a href="#sign-up" class="our-courses-card-arrow-link">
+                      <svg
+                        class="our-courses-icon-arrow"
+                        width="20"
+                        height="20"
+                      >
+                        <use
+                          href="./src/images/images/our-courses-images/symbol-defs.svg#icon-arrow"
+                        ></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <h3 class="our-courses-card-header">
+                    Landscape <br />
+                    photography
+                  </h3>
+                  <p class="our-courses-in-card-info">
+                    In this course, you'll learn how to choose the right angles,
+                    frame landscapes, and create depth and perspective in your
+                    images.
+                  </p>
+                </div>
+              </li>
+              <li class="our-courses-card">
+                <div class="our-courses-card-inner">
+                  <div class="our-courses-card-inner-top">
+                    <span class="our-courses-card-number">03</span>
+                    <a href="#sign-up" class="our-courses-card-arrow-link">
+                      <svg
+                        class="our-courses-icon-arrow"
+                        width="20"
+                        height="20"
+                      >
+                        <use
+                          href="./src/images/images/our-courses-images/symbol-defs.svg#icon-arrow"
+                        ></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <h3 class="our-courses-card-header">
+                    Portrait <br />
+                    photography
+                  </h3>
+                  <p class="our-courses-in-card-info">
+                    During this course, you will learn to choose the right
+                    lighting, reproduce the mood and expressions on the faces of
+                    the models.
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- OUR COURSES Section End -->
+      <section class="container-our-mentors" id="mentors">
+        <h2 class="our-mentors">
+          Our <span class="our-mentors-span"> Mentors </span>
+        </h2>
+        <ul>
+          <li>
+            <img src="./src/images/images/girl-1.jpg" alt="Emilia Smith" />
+            <div class="our-mentors-details">
+              <h3>Emilia Smith</h3>
+              <p>1.5 years of experience</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/images/images/boy-1.jpg" alt="Alex Lebedev" />
+            <div class="our-mentors-details">
+              <h3>Alex Lebedev</h3>
+              <p>3.5 years of experience</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/images/images/girl-2.jpg" alt="Mia Dubrovska" />
+            <div class="our-mentors-details">
+              <h3>Mia Dubrovska</h3>
+              <p>2.0 years of experience</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/images/images/boy-2.jpg" alt="Eliot Kovalev" />
+            <div class="our-mentors-details">
+              <h3>Eliot Kovalev</h3>
+              <p>4.0 years of experience</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Sign Up Section Start -->
+      <section class="sign-up-section" id="sign-up">
+        <div class="sign-up-container">
+          <form class="sign-up-container" action="">
+            <h2 class="sign-up-h2">
+              Sign <span class="sign-up-span">Up</span>
+            </h2>
+            <p class="sign-up-p">
+              Please use the form below to contact us. Enter your name, email,
+              and message and we'll get back to you shortly.
+            </p>
+            <label class="sign-up-label">
+              <input
+                class="sign-up-input"
+                type="text"
+                placeholder="Enter your name"
+                required
+              />
+            </label>
+            <label class="sign-up-label">
+              <input
+                class="sign-up-input"
+                type="email"
+                placeholder="Enter your email"
+                required
+              />
+            </label>
+            <label class="sign-up-label">
+              <textarea
+                name=""
+                class="sign-up-textarea"
+                placeholder="Message"
+              ></textarea>
+            </label>
+            <button class="sign-up-button">SEND</button>
+            <p class="sign-up-p sign-up-opacity">
+              By clicking on "Send" button, you agree to our
+              <a class="sign-up-a" href="#">Privacy Policy</a>, and allow
+              Promodo to use this information for marketing purposes.
+            </p>
+          </form>
+        </div>
+        <div id="sign-up-container-2" class="sign-up-container-2">
+          <div class="sign-up-div-1">
+            <img
+              class="sign-up-image-1"
+              src="./src/images/img/camera-1.png"
+              alt=""
+            />
+          </div>
+          <div class="sign-up-div-2">
+            <img
+              class="sign-up-image-2"
+              src="./src/images/img/camera-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Sign Up Section End -->
+      <!-- Reviews Section Start -->
+      <section class="reviews-section" id="reviews">
+        <div class="reviews-section-heading">
+          <h2 class="reviews-heading">Reviews</h2>
+        </div>
+        <ul class="reviews-section-cards">
+          <li class="reviews-section-card">
+            <div class="reviews-section-card-up">
+              <div class="reviews-section-card-up-img">
+                <img src="./src/images/images/abraham.png" alt="user-picture" />
+              </div>
+              <div>
+                <h4 class="reviews-section-card-up-heading">Abraham Baker</h4>
+                <p class="reviews-section-card-up-p">Student</p>
+              </div>
+              <div class="reviews-section-card-up-icons-container">
+                <div class="reviews-section-card-up-icons">
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star1">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star1"
+                    ></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews-section-card-bottom">
+              <p class="reviews-section-card-bottom-p">
+                I am very pleased that I decided to enroll in photography
+                school. The teachers turned out to be very talented and
+                experienced professionals who share their knowledge and are
+                dedicated to their work. I was able to expand my skills and
+                discover my own style.
+              </p>
+            </div>
+          </li>
+          <li class="reviews-section-card hidden-on-mobile">
+            <div class="reviews-section-card-up">
+              <div class="reviews-section-card-up-img">
+                <img src="./src/images/images/amanda.png" alt="user-picture" />
+              </div>
+              <div>
+                <h4 class="reviews-section-card-up-heading">Amanda Lowery</h4>
+                <p class="reviews-section-card-up-p">Student</p>
+              </div>
+              <div class="reviews-section-card-up-icons-container">
+                <div class="reviews-section-card-up-icons">
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star2">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star2"
+                    ></use>
+                  </svg>
+                  <svg class="icon icon-star1">
+                    <use
+                      xlink:href="./src/images/images/symbol-defs.svg#icon-star1"
+                    ></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews-section-card-bottom">
+              <p class="reviews-section-card-bottom-p">
+                The courses at the photography school exceeded all my
+                expectations. I gained not only technical knowledge, but also
+                inspiration and motivation to reach new heights in my
+                creativity. Hands-on classes and workshops helped me understand
+                different styles of photography.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Reviews Section End -->
+      <!-- Footer Section Start -->
+      <footer class="footer" id="contacts">
+        <!-- Footer Sarmalayıcı -->
+        <div class="footer-wrapper">
+          <!-- Footer'ı Kapsayan Container -->
+          <div class="footer-container">
+            <!-- Footer Bölümünün Sol Tarafı | Logo ve Adres Bilgileri -->
+            <div class="footer-left">
+              <div>
+                <svg class="footer-logo-icon" width="123" height="16">
+                  <use href="./src/images/images/footer-logo.svg"></use>
+                </svg>
+              </div>
+              <div class="footer-contact">
+                <a href="tel:+380665438912" class="footer-contact-info"
+                  >+38 066 543 8912</a
+                >
+                <p class="footer-contact-info">
+                  1678 S. Pioneer Road Salt Lake City UT 84104
+                </p>
+              </div>
+            </div>
+
+            <!-- Orta Bölüm | Navigasyon Linkleri -->
+            <div class="footer-nav">
+              <ul class="footer-nav-list">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/goit.turkiye/"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.youtube.com/@GoITTurkey"
+                    >Youtube</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="footer-nav-list">
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#courses">Our Courses</a></li>
+                <li><a href="#mentors">Our Mentors</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+              </ul>
+            </div>
+
+            <!-- Footer Right | Email Section -->
+            <form class="footer-email-form">
+              <input
+                class="footer-email-input"
+                type="email"
+                id="footer-email"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit" class="footer-btn">Go</button>
+            </form>
+          </div>
+
+          <!-- Footer Bottom | Privacy Section -->
+          <div class="footer-bottom">
+            <div class="footer-legal">
+              <a href="#privacy" class="policys">Privacy Policy</a>
+              <a href="#offering" class="policys">Public Offering Agreement</a>
+            </div>
+            <div class="footer-copyright">
+              <p class="footer-copyright-text">
+                2024 Focus Frame &copy; All rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section End -->
+    </div>
+    <!-- .main-container bg  -->
+  </body>
+</html>
 
